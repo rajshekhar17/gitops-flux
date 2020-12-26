@@ -3,6 +3,7 @@ kind: Kustomization
 
 bases:
 - ../../base
+- namespace.yaml
 
 namespace: my-app-prod
 nameSuffix: -prod
